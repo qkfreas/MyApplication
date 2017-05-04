@@ -40,7 +40,7 @@
         android:id="@+id/spinner"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:entries="@array/object-array"
+        android:entries="@array/object_array"
         android:prompt="@string/option_select"
         android:layout_marginTop="30dp" />
 </android.support.constraint.ConstraintLayout>

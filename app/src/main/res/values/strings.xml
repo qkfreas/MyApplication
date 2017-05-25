@@ -8,6 +8,7 @@
     <string name="select">Choose an object</string>
     <string name="option_select"></string>
     <string name="object_array"></string>
+    <!--Itmes in spinner-->
     <string-array name="object_array">
         <item>House</item>
         <item>Car</item>
@@ -17,4 +18,18 @@
         <item>Phone</item>
         <item>Laptop</item>
     </string-array>
+
+
+    <spinner name="menu_dropdown">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:entries="@array/object_array"
+            android:prompt="@string/option_select"
+            android:layout_marginTop="30dp"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+    </spinner>
 </resources>

@@ -33,14 +33,4 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintRight_creator="1"
         tools:text="@string/button_send" />
-
-    <!--<Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:entries="@array/object_array"
-        android:prompt="@string/option_select"
-        android:layout_marginTop="30dp" />-->
 </android.support.constraint.ConstraintLayout>

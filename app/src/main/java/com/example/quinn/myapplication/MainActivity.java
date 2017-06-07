@@ -30,10 +30,5 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void nextWindow(View view) {
-        // Cross your fingers
-        Intent intent = new Intent(this,MyPage.class);
 
-        startActivity(intent);
-    }
 }

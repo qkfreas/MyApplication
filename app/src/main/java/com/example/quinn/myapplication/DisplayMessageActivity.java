@@ -3,6 +3,7 @@ package com.example.quinn.myapplication;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class DisplayMessageActivity extends AppCompatActivity {
@@ -19,5 +20,12 @@ public class DisplayMessageActivity extends AppCompatActivity {
         // Capture the layout's TextView and set the string as its text
         TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText(message);
+    }
+
+    public void nextWindow(View view) {
+        // Cross your fingers
+        Intent intent = new Intent(this,MyPage.class);
+
+        startActivity(intent);
     }
 }

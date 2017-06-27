@@ -26,6 +26,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         // Cross your fingers
         Intent intent = new Intent(this,MyPage.class);
 
+
         startActivity(intent);
     }
 }

@@ -18,4 +18,6 @@
         <item>Phone</item>
         <item>Laptop</item>
     </string-array>
+
+    <string name="button_next">Next</string>
 </resources>
